@@ -1,4 +1,5 @@
 # Figma MCP Server
+[![smithery badge](https://smithery.ai/badge/@ArticPenguin/figma-context-mcp)](https://smithery.ai/server/@ArticPenguin/figma-context-mcp)
 
 Give [Cursor](https://cursor.sh/), [Windsurf](https://codeium.com/windsurf), [Cline](https://cline.bot/), and other AI-powered coding tools access to your Figma files with this [Model Context Protocol](https://modelcontextprotocol.io/introduction) server.
 
@@ -29,6 +30,14 @@ This MCP server is specifically designed for use with Cursor. Before responding 
 Reducing the amount of context provided to the model helps make the AI more accurate and the responses more relevant.
 
 ## Installation
+
+### Installing via Smithery
+
+To install figma-context-mcp for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@ArticPenguin/figma-context-mcp):
+
+```bash
+npx -y @smithery/cli install @ArticPenguin/figma-context-mcp --client claude
+```
 
 ### Running the server quickly with NPM
 
